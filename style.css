@@ -1,0 +1,12 @@
+.container-fluid {
+    text-align: center;
+    font-family: 'Glegoo', serif;
+    font-size: 15px;
+}
+
+header {
+    background-image: url("http://ideas-inspire.com/wp-content/uploads/2014/04/RightTriangleLabeled1.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+}

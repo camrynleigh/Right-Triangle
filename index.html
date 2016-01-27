@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="rightTriangle">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
+    <title>'High' on 'Potnuse' and Services</title>
+</head>
+
+<body ng-controller="TriangleController">
+    <header></header>
+    <hr>
+    <br>
+    <br>
+    <div class="container-fluid">
+
+        <h1>Right Triangle Calculations</h1>
+        <div class="row">
+            <label>Base</label>
+            <input ng-model="triangle.base">
+        </div>
+        <div class="row">
+            <label>Height</label>
+            <input ng-model="triangle.height">
+        </div>
+        <br>
+        <div class="row">
+            <button ng-click="getArea()">Get Area</button>
+        </div>
+        <div class="row">
+            <button ng-click="getHypotenuse()">Get Hypotenuse</button>
+        </div>
+        <br>
+        <div class="row">
+            Area: {{area}}
+        </div>
+        <div class="row">
+            Hypotenuse: {{hypotenuse}}
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
